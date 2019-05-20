@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_blink"
+        app:showAsAction="ifRoom"
+        android:title="blink" />
+    <item
+        android:id="@+id/action_rotate"
+        android:icon="@drawable/baseline_rotate_right_24"
+        app:showAsAction="ifRoom|withText"
+        android:title="rotate" />
+</menu>
